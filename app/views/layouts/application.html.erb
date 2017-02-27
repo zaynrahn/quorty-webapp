@@ -30,10 +30,37 @@
     </header>
 
     <hr/> <!-- Will be sucked into the nav bar due to Bootstrap so 'clear' in CSS file!-->
-
     <br class="clear"/>
     
+    <div class="container">
+      <%= yield %>
+    </div>
 
-    <%= yield %>
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <%= link_to "I need another dose of wisdom...", "#", class: 'next-quote' %>
+          </div>
+          <div class="col-6 footer-blurb">
+            Proudly built by <a href="http://zaynrahman.getforge.io/">Zayn Rahman</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+

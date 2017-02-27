@@ -39,7 +39,7 @@ and not http, because Heroku will not accept http*/
 
 .links a {
   color: black;
-  font-size: 25px;
+  font-size: 20px;
   border-bottom: 3px solid #dfdfdf;
   font-family: "intro_rust_gbase_2_line", Helvetica, sans-serif;
 
@@ -65,3 +65,36 @@ h2 {
   letter-spacing: -1.5px;
   font-size: 35px;
 }
+
+.next-quote {
+  color: #EDF514;
+  font-family: "intro_rust_gbase_2_line";
+  font-size: 20px;
+}
+
+.footer-blurb {
+  color: #FFF;
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-style: italic;
+  text-align: right;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
