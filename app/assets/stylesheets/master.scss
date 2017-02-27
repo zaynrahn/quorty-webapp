@@ -1,4 +1,7 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower'); /*Important to have https
+and not http, because Heroku will not accept http*/
+
 
 .clear {
   clear: both;
@@ -41,9 +44,21 @@
 }
 
 header {
-  border-top: 9px solid #222222; /* */
+  border-top: 9px solid #222222;
 }
 
 hr {
   clear: both;
+}
+
+h1 {
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: "intro_rust_gbase_2_line", Helvetica, sans-serif;
+  /*font-weight: 600;
+  letter-spacing: -1.5px;*/
 }
