@@ -10,25 +10,30 @@
 
   <body>
     <header class="row"> 
+      
       <div class="col-3">
-        <div class="circle">
-          <br />
-          CAN'T STOP,
-          <br />
-          WON'T STOP,
-          <br />
-          SO KEEP GOING
+        <%= link_to root_path, class: 'logo' do %>
+          <div class="circle">
+            <br />
+            CAN'T STOP,
+            <br />
+            WON'T STOP,
+            <br />
+            SO KEEP GOING
           </div>
+        <% end %>
       </div>
+      
       <div class="col-4 slogan">
         Providing you with a daily dose of motivation since 2017
       </div>
+      
       <div class="col-5 links">
-        <%= link_to 'Contribute', '#' %> <!-- link_to is ruby code and similar to the <a href></a> tag in HTML-->
+        <%= link_to 'Contribute', new_quote_path %> <!-- link_to is ruby code and similar to the <a href></a> tag in HTML-->
         <%= link_to 'About', '#' %>
       </div>
-    </header>
 
+    </header>
     <hr/> <!-- Will be sucked into the nav bar due to Bootstrap so 'clear' in CSS file!-->
     <br class="clear"/>
     
@@ -40,7 +45,7 @@
       <div class="container">
         <div class="row">
           <div class="col-6">
-            <%= link_to "I need another dose of wisdom...", "#", class: 'next-quote' %>
+            <%= link_to "I need another dose of wisdom...", root_path, class: 'next-quote' %>
           </div>
           <div class="col-6 footer-blurb">
             Proudly built by <a href="http://zaynrahman.getforge.io/">Zayn Rahman</a>
