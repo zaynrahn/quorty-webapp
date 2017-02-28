@@ -94,11 +94,27 @@ h2 {
     margin-top: -15px;
 }
 
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
 
+.modal {
+      font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
 
+h2 span {
+  color: #4D5E63;
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  padding-bottom: 10px;
+}
 
-
-
+/*Highlighted text's background color*/
+::selection {
+  background-color: #f84342;
+}
 
 
 
